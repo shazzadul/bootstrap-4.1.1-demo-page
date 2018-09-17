@@ -1,0 +1,86 @@
+/*default*/
+
+.primary-button {
+    padding: 15px;
+    background: #232323;
+    color: #fff;
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+.primary-button:hover {
+    background: orange;
+    color: #000;
+
+}
+
+
+
+/*banner*/
+
+
+.banner {
+    background-image: url('../../assets/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+    width: 100%;
+}
+
+.banner-inside{
+    margin-top: 80px;
+}
+
+/*Top-bar*/
+
+.top-bar {
+    background: #232323;
+    border-bottom: 3px solid orange;
+}
+
+p {
+    padding: 10px 0;
+    margin-bottom: 0px !important;
+}
+
+.top-left p,
+.top-right p {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*service*/
+
+.header-title h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-body {
+    transition: all .5s ease-out;
+}
+
+.card-body:hover {
+    background: lightgray;
+    transition: all .5s ease-in;
+}
+
+
+.icon {
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    background: orange;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 90px;
+    margin: 0 auto;
+}
